@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rachana Kadikar | Home </title>
+	<link href="style.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="vegas/vegas.min.css" />
+<style> 
+	body {
+		background-image: src="";
+	}
+</style>
+</head>
+<body>
+	<h1>R A C H A N A <span class="period"> . </span> K A D I K A R</h1>
+	<div id="main">
+	<div id="wrapper">
+	<div id="nav">
+			<a href="main.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="writing.html">Writing</a>
+			<a href="projects.html">Projects</a>
+			<a href="contact.html">Contact</a>
+	</div> <!--ends nav-->
+	</div> <!--ends wrapper-->
+</div>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="vegas/vegas.min.js"></script>
+	<script>
+		$/*(document).ready*/(function(){
+		   $("body").vegas({
+		    slides: [
+		        {src: "img/sbucks.jpeg" },
+		        {src: "img/graduation.jpeg" },
+		        {src: "img/bbridge.jpeg" },
+		        {src: "img/ttrojan.jpeg" }
+		    ]
+		}
+		});
+    </script>
+</body>
+</html>
